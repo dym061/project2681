@@ -2,8 +2,6 @@ import React from "react";
 import Image from 'next/image'
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import styles from "../styles/gallery.module.css";
-import stuff from "../styles/scroll.module.css";
 
 const Gallery = () => {
 

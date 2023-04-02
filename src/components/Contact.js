@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import styles from "../styles/contact.module.css";
 
 const Contact = () => {
 const [name, setName] = useState("");

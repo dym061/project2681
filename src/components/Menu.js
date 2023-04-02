@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import styles from "../styles/menu.module.css";
 
 const Menu = () => {
 	
