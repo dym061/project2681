@@ -65,7 +65,7 @@ position:relative;
 margin-bottom:1.5rem;
 overflow:hidden;
 border-radius:3px;
-box-shadow:3px 3px 6px rgba(0, 0, 0, .3);
+box-shadow:3px 3px 6px rgba(0, 0, 0,.3);
 }
 .code-container:last-child {
 margin-bottom:0;
@@ -466,7 +466,7 @@ input:focus
 	-ms-transform:scale(1.0);
 	transition:all .2s ease;}	
 	
-.btn1:hover, .btn2:hover {
+.btn1:hover,.btn2:hover {
 	background-color:var(--first);
 	border:1px solid var(--second);
 	border-width:0px 1px 1px 0px;
