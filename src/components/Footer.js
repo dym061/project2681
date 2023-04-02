@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className="con ">
         <p className="txtfont txtcol1 ">
-          © {startYear} - {currentYear} Seoulfood | All rights reserved
+          © {startYear} - {currentYear} Seoul Food | All rights reserved
         </p>
        <Link href="" className={styles.footer__link}>
 		  <span>Designed by </span><span className={styles.bw}>CiestoMedia</span>
