@@ -1,0 +1,36 @@
+.about {
+max-width:1000px;
+margin:0 auto;
+padding:50px 0;
+}
+
+.about_text {
+color:#ffffff;
+width:70%;
+margin-right:5%;
+display:inline-block;
+vertical-align:top;
+}
+
+.about_text p {
+margin-bottom:20px;
+}
+
+.about_image {
+width:25%;
+display:inline-block;
+vertical-align:top;
+}
+
+.about_image img {
+width:100%;
+height:auto;
+}
+
+@media screen and (max-width:768px) {
+.about_text,
+.about_image {
+width:100%;
+display:block;
+}
+}
