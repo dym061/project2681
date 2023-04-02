@@ -42,7 +42,6 @@
   transform: translateY(4px);
   transition: all .4s ease;
   backface-visibility: hidden;
-
 }
 
 .open__close {
