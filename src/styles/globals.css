@@ -1006,8 +1006,6 @@ background:linear-gradient(60deg, var(--fourth) 0%, var(--first) 35%);}
   background-color:transparent;
 }
 
-
-
 @media (max-width:950px) {
   .scroll-top {
     display:none;
