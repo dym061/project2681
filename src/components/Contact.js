@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Map from "./Map";
 
 const Contact = () => {
 const [name, setName] = useState("");
@@ -58,6 +59,7 @@ return (
 			</div>
 		</div>
 	</section>
+	<Map />
 	<Footer />
 </>
 );

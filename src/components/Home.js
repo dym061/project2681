@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import FloatButtons from "./FloatButtons";
 import Image from "next/image";
 import styles from "../styles/home.module.css";
 
@@ -9,17 +10,19 @@ const Home = () => {
     <>
       <Navbar/>
 	  <h1 className="txtcol1 txtfont2 h4 txtupper txtcenter pb5">Welcome to SEOUL FOOD</h1>
-      <section className="con bgcol2 home">
+      <section className="home">
         <Image
-		  className="p5 pb5 mb5"
-          src="/images/cover.png"
+		  className="mb5 bgcover"
+		  layout="responsive"
+          src="/images/cover2.jpg"
           alt="Cover Image"
-          layout="responsive"
+          
           width={1920}
-          height={1080}
+          height={533}
         />
       </section>	
-	  <Footer/>
+	  <FloatButtons />
+	  <Footer />
 	</>
   );
 };
